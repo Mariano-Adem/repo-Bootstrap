@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoInsta{
+    padding: 0.5rem;
+    border:none;
+    margin: 1rem;
+}
+
+.logoLinkedin{
+    padding: 0.5rem;
+    border: none;
+    margin: 1rem;
+}
+
+.logoBehance{
+    padding: 0.5rem;
+    border:none;
+    margin: 1rem;
+}
+
+#header {
+    color: #146464;
+    background-color: #ffcd82 ;
+    margin: 1rem;
+    margin-top: 0.8rem;
+    border: solid; color: black;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+.redes{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;  
+    width: 300px; 
+}
+
+body {
+    background-color: #ffbaba;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+
+
+#footer{
+    background-color: #fff2df;
+    color: #146464;
+    display: flex;
+}
+
+.sectionSobreMi{
+    background-color: #146464;
+    padding:1.5rem;
+    border: solid; color: black;
+    margin: 1.5rem;
+}
+
+#section1 {
+    background-color: #146464;
+    padding:1.5rem;
+    border: solid; color: black;
+    margin: 1.5rem;
+    display: flex;
+}
+#section2{
+    background-color: #ffcd82;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: solid; color: black
+    
+}
+
+#section3{
+    background-color: #146464;
+    padding: 1.5rem;
+    border: solid; color: black;
+    margin: 1.5rem;
+}
+
+.sec1Servicios{
+    background-color: #ffcd82;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    border: solid; color: black;
+    margin: 1.5rem;   
+}
+
+.sec2Servicios{
+    background-color: #146464;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    border: solid; color: black;
+    margin: 1.5rem;
+}
+
+.sec1Portfolio{
+    background-color: #146464;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    border: solid; color: black;
+    margin: 1.5rem;
+}
+
+.sec2Portfolio{
+    background-color: #ffcd82;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    border: solid; color: black;
+    margin: 1.5rem;   
+}
+
+.nav__list{
+    list-style: none;   
+}
+
+.navItem{
+    border: none;
+    text-align: left;
+    display: inline-block   
+}
+
+.nav__link{
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: #ff5a46;
+}
+
+.textoBlanco{
+    color: white;
+}
+
+.textoNegro{
+    color: black;
+}
+
+.div1{
+    padding: 1rem;
+    border: 0;
+    margin: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.div1Section2{
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+}
+
+.div2Section2{
+    padding: 0.5rem;
+    border: none;
+    margin: 1rem;
+}
+
+.div1Section3{
+    text-align: center;
+    padding: 0.5rem;
+    border: none;
+    margin: 1rem;
+}
+
+.botonVerMas{
+    text-decoration: none;
+    padding: 0.5rem;
+    border: solid black;
+    margin: 1rem;
+    background-color: #fff2df
+    
+}
+
+.div3Section3{
+    text-align: center;
+    text-decoration: none;
+}
+
+.logoHeader{
+    text-align:center;
+    padding: 0.5rem;
+    border: none;
+    margin: 2rem;
+}
+.contactame{
+    
+    color: #ff5a46;
+    padding: 0.5rem;
+    border: solid black;
+    margin: 1rem;
+}
+.s1servicios{
+    background-color: #146464;
+    padding: 1.5rem;
+    border: solid black;
+    margin: 1.5rem;
+}
+
+.liberaTuMarca{
+    text-align: center;
+    padding: 0.5rem;
+    border: none;
+    margin: 0.5rem;
+}
+
+.alinearLista{
+    text-align: center;
+    align-items: center;
+}
+
+.texto{
+    text-align: center;
+    padding: 0.5rem;
+    border: none;
+    margin: 0.5rem;
+}
+.lista{
+    list-style: none;
+}
+
+.formularioContactos{
+    background-color: #44a4a1;
+    padding: 1.5rem;
+    border: solid black;
+    margin: 1.5rem;
+}
+
+.span1Formulario{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.botonFormulario{
+    text-decoration: none;
+    padding: 0.5rem;
+    border:  solid black;
+    background-color: #fff2df
+}
+
+.verdeLin{
+    color: #146464;
+}
+
+.rojoLin{
+    color: #ff5a46;
+}
+
+.rosaLin{
+    color: #ffbaba;
+}
+
+.celesteLin{
+    color: #44a4a1;
+}
+
+.naranjaLin{
+    color: #f89d3a;
+}
+
+.naranjaBebeLin{
+    color: #ffcd82;
+}
+
+.cremaLin{
+    color: #fff2df;
+}
+
+#procesoDeTrabajo{
+    padding: 1rem;
+    border: dashed #ff5a46;
+    margin: 1rem;
+    display: flex;
+}
+.proceso{
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+}
+
+
+.footerCenter{
+    text-align: center;
+    padding: 0.5rem;
+}
