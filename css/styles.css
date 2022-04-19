@@ -41,6 +41,65 @@ header{
 }
 
 
+                /* Animaciones */
+.animacion-imagen{
+    animation:imagen 2.2s ease;
+}
+
+.animacion-imagen1{
+    animation:imagen1 2s ease;
+}
+
+ @keyframes imagen{
+    0%{
+        transform:translateX(-1000px);
+    }
+    10%{
+        transform:translateX(-900px);
+    }
+    20%{
+        transform:translateX(-800px);
+    }
+    30%{
+        transform:translateX(-700px);
+    }
+    40%{
+        transform:translateX(-600px);
+    }
+    50%{
+        transform:translateX(-500px);
+    }
+    60%{
+        transform:translateX(-400px);
+    }
+    70%{
+        transform:translateX(-300px);
+    }
+    80%{
+        transform:translateX(-200px);
+    }
+    90%{
+        transform:translateX(-100px);
+    }
+    100%{
+        transform:translateX(0px);
+    }
+}
+
+@keyframes imagen1{
+    0%{
+        transform:scale(-2,-2);
+    }
+
+    50%{
+        transform:scale(-1.5,-1.5);
+    }
+
+    100%{
+        transform:scale(1,1);
+    }
+}
+
 
 
 
