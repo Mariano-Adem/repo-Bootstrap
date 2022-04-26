@@ -1,0 +1,72 @@
+.s1servicios {
+    margin: 0.5rem;
+    background-color: #146464;
+    border: solid black;
+  }
+  
+  .texto {
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .textoBlanco {
+    color: white;
+  }
+  
+  .sec1Servicios {
+    background-color: #ffcd82;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    color: black;
+    padding: 1.5rem;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sec1Servicios img {
+    width: 80%;
+  }
+  
+  .lista {
+    list-style: none;
+  }
+  
+  .sec2Servicios {
+    background-color: #146464;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border: solid;
+    color: black;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .naranjaBebeLin {
+    color: #ffcd82;
+  }
+  
+  #procesoDeTrabajo {
+    padding: 1rem;
+    border: dashed #ff5a46;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .iconos {
+    width: 5rem;
+  }
+  
+  .proceso {
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

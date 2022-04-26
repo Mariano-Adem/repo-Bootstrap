@@ -1,0 +1,42 @@
+header{
+    background:$naranja ;
+    color: $verde;
+    border: solid;
+    color: $letra-negra;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logoHeader{
+    text-align: center;
+    border: none;
+    width: 5rem;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        border: solid black;
+        background-color: $crema;
+        a {
+            font-size: 0.6rem;
+            color: $rojo; 
+            text-decoration: none;
+            padding: 0.5rem;
+            border: 1px solid $letra-negra;
+            background-color: $crema;
+            &:hover{
+                color: $verde;
+            }  
+        }
+
+    }
+    
+    .logo__redes {
+        margin: 0.3rem;
+      }
+
+      
+}
+

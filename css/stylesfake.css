@@ -178,14 +178,7 @@ body {
     margin: 1rem;
 }
 
-.botonVerMas{
-    text-decoration: none;
-    padding: 0.5rem;
-    border: solid black;
-    margin: 1rem;
-    background-color: #fff2df
-    
-}
+
 
 .div3Section3{
     text-align: center;
@@ -278,9 +271,7 @@ body {
     color: #ffcd82;
 }
 
-.cremaLin{
-    color: #fff2df;
-}
+
 
 #procesoDeTrabajo{
     padding: 1rem;
