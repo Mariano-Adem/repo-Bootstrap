@@ -70,66 +70,42 @@
           </div> 
         
     </header>
-    <main>
-        <section>
-            <div>
-                <form class="formularioContactos" action="">
-                    <fieldset>
-                        <span class="span1Formulario">
-                        <img src="../img/LogoRojo.png" alt="" height="100" width="100">
-                        </span>
- 
-                        <h1 class="texto naranjaBebeLin">Diseñadora Grafica</h1>  
-                     
-                        <legend><h1 class="texto">Formulario de contacto</h1></legend>
-     
-                        <label for="nombre"> Nombre:</label>
-                        <input class="botonFormulario" type="text" name="nombre" id="nombre" placeholder="Escriba aqui su nombre">
-                        <br>
-                     
-                        <label for="apellido"> Apellido:</label>
-                        <input class="botonFormulario" type="text" name="apellido" id="apellido" placeholder="Escriba su apellido">
-                        <br>
-                     
-                        <label for="email"> Email:</label>
-                        <input class="botonFormulario" type="text" name="email" id="email" placeholder="Escriba su mail(Obligatorio)" required>
-                        <br>
-                     
-                        <label for="numero de telefono">Telefono:</label>
-                        <input class="botonFormulario" type="number" name="numero de telefono" id="numero de telefono" placeholder="Numero de telefono" required> 
-                     
-                        <div>
-                            hombre
-                            <input class="botonFormulario" type="radio" name="sexo" value="hombre">
-                            Mujer
-                            <input class="botonFormulario" type="radio" name="sexo" value="mujer">
-                        </div>
-                        <div>
-                            Acepta los terminos y condiciones del servicio
-                            <input class="botonFormulario" type="checkbox" name="Acepta" value="1" required>
-                        </div>
-                        <br>
-                     
-                        <label for="Servicio">Elegir servicio</label>
-                        <select class="botonFormulario" name="Servicio" id="Servicio">
-                            <option value="Branding emocional">Branding emocional</option>
-                            <option value="Identiad visual">Identidad visual</option>
-                        </select>
-                        <br>
-                     
-                        <label for="mensaje">Mensaje</label>
-                        <br>
-                     
-                        <textarea class="botonFormulario" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                     
-                        <br>
-                        <input class="botonFormulario" type="submit" value="Enviar">
-                     
-                        <input class="botonFormulario" type="reset" value="Limpiar formulario">
-                    </fieldset>
-                </form>
-            </div>
-        </section>
+    <main class="container-lg formulario g-0 p-4 mb-2">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" alt="ingrese su nombre">
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label" >Apellido</label>
+          <input type="text" class="form-control" id="validationCustom02" alt="ingrese su apellido" >
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="number" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required alt="ingrese su email">
+          </div>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" alt="ingrese su comentario"></textarea>
+          <label for="floatingTextarea">Su Comentrario aqui!!! </label>
+        </div>
+        
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck" alt="aceptar terminos y condiciones" >
+              Terminos y Condiciones
+            </label>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-around mb-3">
+          <button class="btn boton--formulario" type="submit" alt="boton enviar formulario" >Enviar</button>
+          <button class="btn boton--formulario" type="submit" alt="boton limpiar formulario">Limpiar</button>
+        </div>
+    
+      </form>
     </main>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">

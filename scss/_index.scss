@@ -4,13 +4,16 @@
     color: $letra-negra;
 
     .img__section1 {
-        width: 400px;
+        width: 50rem;
       }
 }
 
 .section2 {
     background-color: $naranja;
     color: $letra-negra;
+    .img__section2{
+        width: 50rem;
+    }
   }
   
   .section3 {

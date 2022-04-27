@@ -3,6 +3,16 @@ body {
   font-size: 1rem;
   height: 0 auto;
 }
+body .rosa {
+  color: #ffbaba;
+}
+body .boton {
+  background-color: #fff2df;
+}
+body .boton a {
+  text-decoration: none;
+  color: #ff5a46;
+}
 
 .animacion-imagen {
   animation: imagen 2.2s ease;
@@ -100,12 +110,15 @@ header .logo__redes {
   color: black;
 }
 .section1 .img__section1 {
-  width: 400px;
+  width: 50rem;
 }
 
 .section2 {
   background-color: #ffcd82;
   color: black;
+}
+.section2 .img__section2 {
+  width: 50rem;
 }
 
 .section3 {
@@ -123,7 +136,83 @@ header .logo__redes {
   text-decoration: none;
 }
 
-/* @import "servicios"; */
+.s1servicios {
+  margin: 0.5rem;
+  background-color: #146464;
+  border: 2px solid black;
+}
+
+.iconos__servicio {
+  display: flex;
+  justify-content: space-around;
+  border: dashed #ff5a46;
+  margin: 1.5rem;
+}
+.iconos__servicio .iconos {
+  width: 4rem;
+}
+.iconos__servicio h4 {
+  font-size: 0.7rem;
+}
+
+.sec1Servicios {
+  background-color: #ffcd82;
+  justify-content: space-between;
+  align-items: center;
+  border: solid;
+  color: black;
+  padding: 1.5rem;
+  margin: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sec1Servicios img {
+  width: 80%;
+}
+
+.lista {
+  list-style: none;
+}
+
+.sec2Servicios {
+  background-color: #146464;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border: solid;
+  color: black;
+  margin: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.naranjaBebeLin {
+  color: #ffcd82;
+}
+
+#procesoDeTrabajo {
+  padding: 1rem;
+  border: dashed #ff5a46;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconos {
+  width: 5rem;
+}
+
+.proceso {
+  padding: 1rem;
+  border: none;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section-sobreMi {
   background-color: #146464;
   padding: 1rem;
