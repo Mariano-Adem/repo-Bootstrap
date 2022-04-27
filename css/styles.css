@@ -82,7 +82,7 @@ header {
 header .logoHeader {
   text-align: center;
   border: none;
-  width: 5rem;
+  width: 7rem;
 }
 header .nav-item {
   text-decoration: none;
@@ -185,10 +185,6 @@ header .logo__redes {
   margin: 0.8rem;
   display: flex;
   flex-direction: column;
-}
-
-.naranjaBebeLin {
-  color: #ffcd82;
 }
 
 #procesoDeTrabajo {
