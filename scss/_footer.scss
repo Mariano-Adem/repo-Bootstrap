@@ -1,11 +1,11 @@
 footer {
-    background-color: $crema;
+    background-color: map-get($colores,color6);
     margin: 1rem;
     padding: 2rem;
-    border: 1px solid $letra-negra;
+    border: 1px solid map-get($colores,color4);
     
-    .footer-copyright{
-        color: $verde;
+    .footer-copyright {
+        color:map-get($colores,color3);
     }
 
 }

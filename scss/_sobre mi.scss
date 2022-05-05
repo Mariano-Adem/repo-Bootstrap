@@ -1,7 +1,7 @@
 .section-sobreMi{
-    background-color: $verde;
+    background-color:map-get($colores,color3);
     padding: 1rem;
-    border: 1px solid $letra-negra;
+    border: 1px solid map-get($map: $colores, $key:color4 );
 
     .img-fluid {
         width: 30rem;

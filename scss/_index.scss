@@ -1,7 +1,7 @@
 .section1 {
-    background-color: $verde;
+    background-color:map-get($colores,color3);
     padding: 1.5rem;
-    color: $letra-negra;
+    color:map-get($colores,color4);
 
     .img__section1 {
         width: 50rem;
@@ -9,8 +9,8 @@
 }
 
 .section2 {
-    background-color: $naranja;
-    color: $letra-negra;
+    background-color:map-get($colores,color2);
+    color:map-get($colores,color4);
     
     .img__section2{
         width: 50rem;
@@ -18,8 +18,8 @@
   }
   
   .section3 {
-    background-color: $verde;
-    color: $letra-negra;
+    background-color:map-get($colores,color3);
+    color: map-get($colores,color4);
 
     .div1Section3 {
         text-align: center;

@@ -1,8 +1,8 @@
 header{
-    background:$naranja ;
-    color: $verde;
+    background:map-get($colores,color2);
+    color:map-get($colores,color3);
     border: solid;
-    color: $letra-negra;
+    color:map-get($colores,color4);
     padding: 1rem;
     margin: 1rem;
     display: flex;
@@ -17,17 +17,17 @@ header{
 
     .nav-item {
         text-decoration: none;
-        border: solid black;
-        background-color: $crema;
+        border: solid map-get($colores,color4);
+        background-color:map-get($colores,color6);
         a {
             font-size: 0.6rem;
-            color: $rojo; 
+            color:map-get($colores,color5); 
             text-decoration: none;
             padding: 0.5rem;
-            border: 1px solid $letra-negra;
-            background-color: $crema;
+            border: 1px solid map-get($colores,color4);
+            background-color:map-get($colores,color6);
             &:hover{
-                color: $verde;
+                color:map-get($colores,color3);
             }  
         }
 
