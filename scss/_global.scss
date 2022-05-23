@@ -8,13 +8,16 @@ body{
     }
     
     .rosa{
-        color:map-get($colores,color6);
+        color:map-get($colores,color1);
     }
     .boton{
         background-color:map-get($colores,color6);
         a{
             text-decoration: none;
             color:map-get($colores,color5);
+            &:hover{
+                color:map-get($colores,color3);
+            }
         }
     }
     

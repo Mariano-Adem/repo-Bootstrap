@@ -9,7 +9,7 @@ body section {
   margin: 2rem;
 }
 body .rosa {
-  color: #fff2df;
+  color: #ffbaba;
 }
 body .boton {
   background-color: #fff2df;
@@ -17,6 +17,9 @@ body .boton {
 body .boton a {
   text-decoration: none;
   color: #ff5a46;
+}
+body .boton a:hover {
+  color: #146464;
 }
 
 .animacion-imagen {
@@ -160,6 +163,10 @@ header .logo__redes {
   font-size: 0.7rem;
 }
 
+.naranja {
+  color: #ffcd82;
+}
+
 .sec1Servicios {
   background-color: #ffcd82;
   justify-content: space-between;
@@ -243,6 +250,19 @@ footer .footer-copyright {
   background-color: #146464;
   padding: 1rem;
   margin: 2rem;
+}
+
+form {
+  background-color: #146464;
+  padding: 1rem;
+  color: #ffbaba;
+}
+form .boton--formulario {
+  background: #ffbaba;
+}
+form .boton--formulario:hover {
+  background: #146464;
+  color: #ffbaba;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,12 @@
+form{
+    background-color: map-get($colores,color3);
+    padding:1rem;
+    color: map-get($colores,color1);
+    .boton--formulario{
+        background: map-get($colores,color1);
+        &:hover{
+            background: map-get($colores,color3);
+            color: map-get($colores,color1);
+        }
+    }
+}
